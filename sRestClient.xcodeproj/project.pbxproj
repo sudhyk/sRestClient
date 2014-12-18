@@ -6,10 +6,36 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		E2145A421A420FEB00EE8F31 /* sRestClientUniversal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E2145A431A420FEB00EE8F31 /* Build configuration list for PBXAggregateTarget "sRestClientUniversal" */;
+			buildPhases = (
+				E2145A461A42102600EE8F31 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = sRestClientUniversal;
+			productName = sRestClientUniversal;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		E2145A2C1A420DE300EE8F31 /* sRestClient.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E2145A2B1A420DE300EE8F31 /* sRestClient.h */; };
 		E2145A2E1A420DE300EE8F31 /* sRestClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E2145A2D1A420DE300EE8F31 /* sRestClient.m */; };
 		E2145A341A420DE300EE8F31 /* libsRestClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2145A281A420DE300EE8F31 /* libsRestClient.a */; };
+		E2145A591A4221D800EE8F31 /* sRestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2145A581A4221D800EE8F31 /* sRestManager.m */; };
+		E23337231A434A59002B5AC8 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E23337111A434A59002B5AC8 /* AFHTTPRequestOperation.m */; };
+		E23337241A434A59002B5AC8 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E23337131A434A59002B5AC8 /* AFHTTPRequestOperationManager.m */; };
+		E23337251A434A59002B5AC8 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E23337151A434A59002B5AC8 /* AFHTTPSessionManager.m */; };
+		E23337261A434A59002B5AC8 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E23337181A434A59002B5AC8 /* AFNetworkReachabilityManager.m */; };
+		E23337271A434A59002B5AC8 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = E233371A1A434A59002B5AC8 /* AFSecurityPolicy.m */; };
+		E23337281A434A59002B5AC8 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E233371C1A434A59002B5AC8 /* AFURLConnectionOperation.m */; };
+		E23337291A434A59002B5AC8 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E233371E1A434A59002B5AC8 /* AFURLRequestSerialization.m */; };
+		E233372A1A434A59002B5AC8 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E23337201A434A59002B5AC8 /* AFURLResponseSerialization.m */; };
+		E233372B1A434A59002B5AC8 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E23337221A434A59002B5AC8 /* AFURLSessionManager.m */; };
+		E233372E1A43626C002B5AC8 /* ServiceCallStack.m in Sources */ = {isa = PBXBuildFile; fileRef = E233372D1A43626C002B5AC8 /* ServiceCallStack.m */; };
+		E233372F1A43675D002B5AC8 /* ServiceCallStack.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E233372C1A43626C002B5AC8 /* ServiceCallStack.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +55,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				E233372F1A43675D002B5AC8 /* ServiceCallStack.h in CopyFiles */,
 				E2145A2C1A420DE300EE8F31 /* sRestClient.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -41,6 +68,29 @@
 		E2145A2D1A420DE300EE8F31 /* sRestClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sRestClient.m; sourceTree = "<group>"; };
 		E2145A331A420DE300EE8F31 /* sRestClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sRestClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2145A391A420DE300EE8F31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2145A571A4221D800EE8F31 /* sRestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sRestManager.h; sourceTree = "<group>"; };
+		E2145A581A4221D800EE8F31 /* sRestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sRestManager.m; sourceTree = "<group>"; };
+		E23337101A434A59002B5AC8 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		E23337111A434A59002B5AC8 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		E23337121A434A59002B5AC8 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		E23337131A434A59002B5AC8 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		E23337141A434A59002B5AC8 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		E23337151A434A59002B5AC8 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		E23337161A434A59002B5AC8 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		E23337171A434A59002B5AC8 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		E23337181A434A59002B5AC8 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		E23337191A434A59002B5AC8 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		E233371A1A434A59002B5AC8 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		E233371B1A434A59002B5AC8 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		E233371C1A434A59002B5AC8 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		E233371D1A434A59002B5AC8 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		E233371E1A434A59002B5AC8 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		E233371F1A434A59002B5AC8 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		E23337201A434A59002B5AC8 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		E23337211A434A59002B5AC8 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		E23337221A434A59002B5AC8 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		E233372C1A43626C002B5AC8 /* ServiceCallStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceCallStack.h; sourceTree = "<group>"; };
+		E233372D1A43626C002B5AC8 /* ServiceCallStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceCallStack.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +133,13 @@
 		E2145A2A1A420DE300EE8F31 /* sRestClient */ = {
 			isa = PBXGroup;
 			children = (
+				E233370F1A434A59002B5AC8 /* AFNetworking */,
 				E2145A2B1A420DE300EE8F31 /* sRestClient.h */,
 				E2145A2D1A420DE300EE8F31 /* sRestClient.m */,
+				E2145A571A4221D800EE8F31 /* sRestManager.h */,
+				E2145A581A4221D800EE8F31 /* sRestManager.m */,
+				E233372C1A43626C002B5AC8 /* ServiceCallStack.h */,
+				E233372D1A43626C002B5AC8 /* ServiceCallStack.m */,
 			);
 			path = sRestClient;
 			sourceTree = "<group>";
@@ -105,6 +160,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E233370F1A434A59002B5AC8 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				E23337101A434A59002B5AC8 /* AFHTTPRequestOperation.h */,
+				E23337111A434A59002B5AC8 /* AFHTTPRequestOperation.m */,
+				E23337121A434A59002B5AC8 /* AFHTTPRequestOperationManager.h */,
+				E23337131A434A59002B5AC8 /* AFHTTPRequestOperationManager.m */,
+				E23337141A434A59002B5AC8 /* AFHTTPSessionManager.h */,
+				E23337151A434A59002B5AC8 /* AFHTTPSessionManager.m */,
+				E23337161A434A59002B5AC8 /* AFNetworking.h */,
+				E23337171A434A59002B5AC8 /* AFNetworkReachabilityManager.h */,
+				E23337181A434A59002B5AC8 /* AFNetworkReachabilityManager.m */,
+				E23337191A434A59002B5AC8 /* AFSecurityPolicy.h */,
+				E233371A1A434A59002B5AC8 /* AFSecurityPolicy.m */,
+				E233371B1A434A59002B5AC8 /* AFURLConnectionOperation.h */,
+				E233371C1A434A59002B5AC8 /* AFURLConnectionOperation.m */,
+				E233371D1A434A59002B5AC8 /* AFURLRequestSerialization.h */,
+				E233371E1A434A59002B5AC8 /* AFURLRequestSerialization.m */,
+				E233371F1A434A59002B5AC8 /* AFURLResponseSerialization.h */,
+				E23337201A434A59002B5AC8 /* AFURLResponseSerialization.m */,
+				E23337211A434A59002B5AC8 /* AFURLSessionManager.h */,
+				E23337221A434A59002B5AC8 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -115,6 +196,7 @@
 				E2145A241A420DE300EE8F31 /* Sources */,
 				E2145A251A420DE300EE8F31 /* Frameworks */,
 				E2145A261A420DE300EE8F31 /* CopyFiles */,
+				E2145A5C1A4225EE00EE8F31 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -158,6 +240,9 @@
 					E2145A321A420DE300EE8F31 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
+					E2145A421A420FEB00EE8F31 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
 				};
 			};
 			buildConfigurationList = E2145A231A420DE300EE8F31 /* Build configuration list for PBXProject "sRestClient" */;
@@ -174,6 +259,7 @@
 			targets = (
 				E2145A271A420DE300EE8F31 /* sRestClient */,
 				E2145A321A420DE300EE8F31 /* sRestClientTests */,
+				E2145A421A420FEB00EE8F31 /* sRestClientUniversal */,
 			);
 		};
 /* End PBXProject section */
@@ -186,14 +272,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E2145A5C1A4225EE00EE8F31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E2145A461A42102600EE8F31 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target sRestClient ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target sRestClient -configuration ${CONFIGURATION} -sdk iphonesimulator -arch i386 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${UNIVERSAL_OUTPUTFOLDER}/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E2145A241A420DE300EE8F31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E23337291A434A59002B5AC8 /* AFURLRequestSerialization.m in Sources */,
+				E23337281A434A59002B5AC8 /* AFURLConnectionOperation.m in Sources */,
+				E23337271A434A59002B5AC8 /* AFSecurityPolicy.m in Sources */,
+				E23337231A434A59002B5AC8 /* AFHTTPRequestOperation.m in Sources */,
+				E233372B1A434A59002B5AC8 /* AFURLSessionManager.m in Sources */,
+				E233372A1A434A59002B5AC8 /* AFURLResponseSerialization.m in Sources */,
 				E2145A2E1A420DE300EE8F31 /* sRestClient.m in Sources */,
+				E23337251A434A59002B5AC8 /* AFHTTPSessionManager.m in Sources */,
+				E233372E1A43626C002B5AC8 /* ServiceCallStack.m in Sources */,
+				E23337241A434A59002B5AC8 /* AFHTTPRequestOperationManager.m in Sources */,
+				E23337261A434A59002B5AC8 /* AFNetworkReachabilityManager.m in Sources */,
+				E2145A591A4221D800EE8F31 /* sRestManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +457,20 @@
 			};
 			name = Release;
 		};
+		E2145A441A420FEB00EE8F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E2145A451A420FEB00EE8F31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -356,6 +490,7 @@
 				E2145A3E1A420DE300EE8F31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E2145A3F1A420DE300EE8F31 /* Build configuration list for PBXNativeTarget "sRestClientTests" */ = {
 			isa = XCConfigurationList;
@@ -364,6 +499,16 @@
 				E2145A411A420DE300EE8F31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2145A431A420FEB00EE8F31 /* Build configuration list for PBXAggregateTarget "sRestClientUniversal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2145A441A420FEB00EE8F31 /* Debug */,
+				E2145A451A420FEB00EE8F31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
